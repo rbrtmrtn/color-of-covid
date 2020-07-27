@@ -20,3 +20,9 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# ignore data folder for processing scripts
+scripts/_data
+
+# Local Netlify folder
+.netlify

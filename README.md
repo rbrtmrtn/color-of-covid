@@ -1,24 +1,36 @@
-# covid-up-close
+# COVID in Color
 
-## Project setup
+An interactive map of COVID cases, deaths, and tests in Chicago.
+
+## Developing
+
+First, clone this repo. Then install dependencies with:
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+To run a local dev sever:
+
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+## Data Processing
+
+TODO describe how data was processed and add Python scripts/SQL snippets to
+repo
+
+## Deploying
+
+First, create a production build:
+
 ```
 yarn build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+Then deploy to Netlify (include `--prod` flag for production):
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+netlify deploy
+```
