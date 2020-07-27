@@ -19,10 +19,10 @@
         <p>
           This is a snapshot from the Illinois Department
           of Public Health <a href="https://www.dph.illinois.gov/covid19/covid19-statistics" target="_external">
-          COVID-19 Statistics</a> portal from June 13, 2020. Around that time
-          IDPH stopped releasing death breakdowns by ZIP code, which is why
-          the data is a bit out of date—but it seems probable that the
-          geographic patterns of COVID have held fairly steady since then.
+          COVID-19 Statistics</a> portal from June 13, 2020. Around that time,
+          IDPH stopped releasing death breakdowns by race and ZIP code. They have
+          not yet responded to questions about why this data was suppressed
+          from the portal or if there are plans to restore it.
         </p>
       </div>
     </section>
@@ -72,9 +72,10 @@
         <p>
           I wrote a Python script to assign each COVID {{ selectedEventTypeSingular}}
           to a census block group based on the probability that a person of that
-          race would live there. It then generates a random point within the
+          race would live there. The script then generates a random point within the
           block group. Since block
-          groups don't follow ZIP code boundaries exactly, I used QGIS to
+          groups don't follow ZIP code boundaries exactly, I used 
+          <a href="https://qgis.org/en/site/">QGIS</a> to
           split block groups by ZIPs. This ensures that each point falls
           inside ZIP code it's assigned to.
         </p>
@@ -104,10 +105,12 @@
         v-if="activeQuestion === 'author'"
       >
         <p>
-          Hi, I'm Robert. I'm a freelance software engineer based in Chicago.
-          I like all things cities and data. Feel free to connect with me on
+          Hi, I'm Robert Martin. I'm a freelance software engineer based in Chicago.
+          I build things that use open data to increase public-sector transparency
+          and empower communities. I'd love to connect on
           <a href="https://twitter.com/rbrt_mrtn" target="_external">Twitter</a> or
-          <a href="https://linkedin.com/in/rbrtmrtn/" target="_external">LinkedIn</a>.
+          <a href="https://linkedin.com/in/rbrtmrtn/" target="_external">LinkedIn</a>,
+          or shoot me an <a href="mailto:hello@rmart.in">email</a>.
         </p>
       </div>
     </section>
