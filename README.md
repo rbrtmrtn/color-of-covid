@@ -2,6 +2,8 @@
 
 An interactive map of COVID cases, deaths, and tests in Chicago.
 
+![COVID in Color](https://i.imgur.com/kFIk7Rm.gif)
+
 ## Developing
 
 First, clone this repo. Then install dependencies with:
