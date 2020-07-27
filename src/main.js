@@ -19,9 +19,9 @@ library.add(faChevronUp, faChevronDown, faArrowDown);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 // set up google analytics
-Vue.use(VueAnalytics, {
-  id: 'UA-77783625-3',
-});
+// Vue.use(VueAnalytics, {
+//   id: 'UA-77783625-3',
+// });
 
 // set up sentry
 Sentry.init({
