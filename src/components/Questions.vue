@@ -74,14 +74,20 @@
           to a census block group based on the probability that a person of that
           race would live there. The script then generates a random point within the
           block group. Since block
-          groups don't follow ZIP code boundaries exactly, I used 
+          groups don't follow ZIP code boundaries exactly, I used
           <a href="https://qgis.org/en/site/">QGIS</a> to
           split block groups by ZIPs. This ensures that each point falls
-          inside ZIP code it's assigned to.
+          inside ZIP code it's assigned to. Mapbox
+          <a href="https://docs.mapbox.com/vector-tiles/reference/">vector tiles</a>
+          of each dataset were generated using
+          <a href="https://github.com/mapbox/tippecanoe">Tippecanoe</a>.
         </p>
         <p>
+          The app you're looking at uses
+          <a href="https://vuejs.org/">Vue.js</a> and
+          <a href="https://docs.mapbox.com/mapbox-gl-js/api/">Mapbox GL</a>.
           Feel free to check out the code over on <a href="https://github.com/rbrtmrtn/color-of-covid" target="_external">GitHub</a>.
-          And big hat tip to the
+          A big hat tip to the
           <a href="racialdotmap.demographics.coopercenter.org">Racial Dot Map</a>
           for cartographic inspiration.
         </p>
