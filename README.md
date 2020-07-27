@@ -1,8 +1,8 @@
-# COVID in Color
+# Color of COVID
 
 An interactive map of COVID cases, deaths, and tests in Chicago.
 
-![COVID in Color](https://i.imgur.com/kFIk7Rm.gif)
+![Color of COVID](https://i.imgur.com/kFIk7Rm.gif)
 
 ## Developing
 
