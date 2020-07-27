@@ -2,7 +2,7 @@
 
 An interactive map of COVID cases, deaths, and tests in Chicago.
 
-![Color of COVID](https://i.imgur.com/wFrHO8q.gif)
+![Color of COVID](https://raw.githubusercontent.com/rbrtmrtn/color-of-covid/master/screenshot.png)
 
 ## Developing
 
