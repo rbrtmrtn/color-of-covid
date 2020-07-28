@@ -47,7 +47,7 @@
                 </tr>
                 <tr>
                   <td><div class="legend-circle legend-circle--hispanic" /></td>
-                  <td>Hispanic</td>
+                  <td>Latinx/Hispanic</td>
                 </tr>
                 <tr>
                   <td><div class="legend-circle legend-circle--white" /></td>
