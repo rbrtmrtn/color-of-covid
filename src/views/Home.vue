@@ -146,7 +146,7 @@ export default {
       const PAINT_OPTIONS = {
         'circle-radius': [
           'interpolate', ['linear'], ['zoom'],
-          8.5, 0.85,
+          8.5, 1.1,
           10, 1.25,
           12, 1.5,
         ],
@@ -173,9 +173,7 @@ export default {
       // add cases
       map.addSource('cases', {
         type: 'vector',
-        tiles: [
-          'https://d1o79a3grltvuu.cloudfront.net/cases/{z}/{x}/{y}.pbf',
-        ],
+        url: 'mapbox://panbalanga.3jhm9qrf',
       });
       map.addLayer({
         id: 'cases',
@@ -189,9 +187,7 @@ export default {
       // add deaths
       map.addSource('deaths', {
         type: 'vector',
-        tiles: [
-          'https://d1o79a3grltvuu.cloudfront.net/deaths/{z}/{x}/{y}.pbf',
-        ],
+        url: 'mapbox://panbalanga.ddzpsnfq',
       });
       map.addLayer({
         id: 'deaths',
@@ -206,7 +202,7 @@ export default {
           {
             'circle-radius': [
               'interpolate', ['linear'], ['zoom'],
-              8.5, 1.5,
+              8.5, 1.75,
               10, 1.85,
               12, 2.25,
             ],
@@ -217,9 +213,7 @@ export default {
       // add tests
       map.addSource('tests', {
         type: 'vector',
-        tiles: [
-          'https://d1o79a3grltvuu.cloudfront.net/tests/{z}/{x}/{y}.pbf',
-        ],
+        url: 'mapbox://panbalanga.a4962ijz',
       });
       map.addLayer({
         id: 'tests',
@@ -234,7 +228,7 @@ export default {
           {
             'circle-radius': [
               'interpolate', ['linear'], ['zoom'],
-              8.5, 0.55,
+              8.5, 0.75,
               10, 1,
               12, 1.5,
             ],
